@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            padding: 20px;
+        }
+        table{
+            border : 1px solid black ; 
+            width: 75%;
+        }
+        td,th{
+            padding: 10px;
+        }
+        input{
+            padding: 10px;
+        }
+   
+    </style>
+</head>
+<body>
+    <form action="">
+        <h2>Zoo Keeper Application Form</h2>
+        <p> <i> Please Complete the form. Mandatory fields are marked with a <span style="color: red;">*</span></i></p>
+
+        <table>
+            <label for=""><b>Contact Details</b></label>
+            <tr>
+                <td><label for="name">Name <span style="color: red;">*</span></label></td>
+                <td><input type="text" name="" id="name"></td>
+            </tr>
+            <tr>
+                <td><label for="tel">Telephone</label></td>
+                <td><input type="text" name="" id="tel"></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email</label></td>
+                <td><input type="text" name="" id="email"></td>
+            </tr>
+        </table>
+        <table>
+            <Caption> Personal Information </Caption>
+            <table>
+                <tr>
+                    <td><span style="color: red;">*</span>Age</td>
+                    <td><input type="text" name="" id=""></td>
+                </tr>
+                <tr>
+                    <td><label for="">Gender</label></td>
+                    <td>
+                        <select name="" id="">
+                            <option value="">Female</option>
+                            <option value="">Male</option>
+                            <option value="">Others</option>
+                        </select>
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="">When did you first know you wnated to be a zoo-keeper?</label></td>
+                    <td> <textarea name="" id="" rows="8" cols="30"></textarea></td>
+                </tr>
+
+            </table>
+        </table>
+        <div>
+            <b>Pick Your Favorite Animals</b>
+            <div>
+                <input type="checkbox"> Zebra 
+                <input type="checkbox"> Cat 
+                <input type="checkbox" name="" id=""> Anaconda 
+                <input type="checkbox" name="" id=""> Human 
+
+                <br>
+
+                <input type="checkbox"> Elephant 
+                <input type="checkbox"> Wildbeast
+                <input type="checkbox" name="" id=""> Pigeon
+                <input type="checkbox" name="" id=""> Crab
+
+
+                
+            </div>
+        </div>
+        <input type="submit" value="Submit Application">
+    </form>
+</body>
+</html>

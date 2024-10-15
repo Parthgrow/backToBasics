@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This is a Table </title>
+</head>
+<body>
+    <h1>Introduction to Table in HTML...</h1>
+
+    <table border = "4">
+        <caption align="top">Student Details </caption>
+        <tr>
+            <th>
+                Name
+            </th>
+            <th>
+                Std. Id. 
+            </th>
+            <th>
+                Course
+            </th>
+            <th>
+                Contact 
+            </th>
+        </tr>
+
+        <tr>
+            <td>John Doe </td>
+            <td>123 </td>
+            <td> Java FS </td>
+            <td> john@email.com</td>
+        </tr>
+        <tr>
+            <td>Alice</td>
+            <td>456</td>
+            <td> Python Full Stack 
+
+                <table border="">
+                    <tr>
+                        <th>Frontend Tech</th>
+                        <th>Backend Tech </th>
+                        <th>Database </th>
+                    </tr>
+                    <tr>
+                        <td>HTML & CSS </td>
+                        
+                    </tr>
+                </table>
+
+
+            </td>
+            <td> alice@gmail.com</td>
+        </tr>
+
+        <tr>
+            <td>Bob</td>
+            <td>789</td>
+            <td>Mern FS</td>
+            <td>bob@email.com</td>
+        </tr>
+    </table>
+
+   <!-- Table with colspan and rowspan  -->
+
+
+    <table style="margin: 2px;" border="3">
+
+        <caption>Table with Rowspan and Colspan </caption>
+
+        <tr>
+            <td>col 1 </td>
+            <td>col 2 </td>
+            <td>col 3 </td>
+        </tr>
+
+        <tr>
+            <td rowspan="2">row 1 col 1 </td>
+            <td>
+                row 1 col 2
+            </td>
+            <td>
+                row 1 cell 3 
+            </td>
+        </tr>
+
+        <tr>
+            <td>row 2 cell 2 </td>
+            <td>row 2 cell 3 </td>
+        </tr>
+
+        <tr>
+            <td colspan="3"> row 3 cell 1</td>
+        </tr>
+
+    </table>
+
+    <table style="margin: 4px;" border="3">
+        <caption>Language and Frameworks</caption>
+
+        <tr>
+            <th colspan="2">Language and Frameworks</th>
+        </tr>
+        <tr>
+            <td  rowspan="2">javascript</td>
+            <td> React Js</td>
+        </tr>
+        <tr>
+            <td> Vue.js</td>
+        </tr>
+        <tr>
+            <td>Ruby</td>
+            <td>
+                Ruby on Rails
+            </td>
+        </tr>
+
+    </table>
+
+    <table border="3">
+        <caption>
+            Systems 
+        </caption>
+        <tr>
+            <td>Level 1</td>
+            <td>Level 2 </td>
+            <td>Level 3 </td>
+            <td>Info </td>
+            <td>Name</td>
+        </tr>
+
+        <tr>
+            <td rowspan="6"> Systems</td>
+            <td rowspan="4">System Apps </td>
+            <td rowspan="3">System Env</td>
+            <td>
+                App Test 
+            </td>
+            <td>Foo</td>
+        </tr>
+
+        <tr>
+            <td>App Memory</td>
+            <td>Foo</td>
+        </tr>
+        <tr>
+            <td>Apptest</td>
+            <td>bar</td>
+        </tr>
+        <tr>
+            <td>System Env 2</td>
+            <td>Apptest</td>
+            <td>bar</td>
+        </tr>
+        <tr>
+            <td rowspan="2">
+                System Memory
+            </td>
+            <td rowspan="2">
+                Memory Test
+            </td>
+            <td>
+                Memory Function
+            </td>
+            <td>Foo</td>
+        </tr>
+        <tr>
+            <td>Apes Test</td>
+            <td>foo</td>
+        </tr>
+    </table>
+
+    <table border="3">
+        <caption>Ultimate Table ( Ben 10 ) </caption>
+
+        <tr>
+            <th colspan="5" style="background-color: grey;">My MultiTable</th>
+        </tr>
+        <tr>
+            <th rowspan="2" colspan="2">Column 0</th>
+            <th rowspan="2">Column 1</th>
+            <th colspan="2">Column 2</th>
+        </tr>
+        <tr>
+            <th>Column 2a</th>
+            <th>Column 2b</th>
+        </tr>
+        <tr>
+            <th rowspan="2">Row 1</th>
+            <th>Row 1 a</th>
+            <td>123</td>
+            <td>456</td>
+            <td>789</td>
+        </tr>
+        <tr>
+            <th>Row 1b</th>
+            <td>123</td>
+            <td>456</td>
+            <td>789</td>
+        </tr>
+        <tr>
+            <th colspan="2">Row 2</th>
+            <td>123</td>
+            <td>456</td>
+            <td>789</td>
+        </tr>
+    </table>
+
+    <table border="3">
+        <caption>Ian's Table </caption>
+
+        <tr>
+            <td></td>
+            <td></td>
+            <td colspan="3">Morning </td>
+            <td >Lunch </td>
+            <td colspan="4">Afternoon</td>
+            <td colspan="3">Evening</td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td></td>
+            <td>9-10am</td>
+            <td>10-11am</td>
+            <td>11-12 am</td>
+            <td>1-2pm</td>
+            <td>2-3pm</td>
+            <td> 3-4 pm</td>
+            <td>4-5pm</td>
+            <td>5-6pm</td>
+            <td>6-7pm</td>
+            <td>7-8pm</td>
+            <td>8-9pm</td>
+         
+        </tr>
+
+        <tr>
+            <td rowspan="2">Work</td>
+            <td>Monday</td>
+            <td colspan="3">Development Meeting</td>
+            <td></td>
+            <td colspan="3">Client Meeting</td>
+            <td>Commute</td>
+            <td colspan="3">Free</td>
+        </tr>
+        <tr>
+            <td>Tuesday</td>
+            <td colspan="3">In Office</td>
+            <td></td>
+            <td colspan="7"> In office </td>
+        </tr>
+        <tr>
+            <td rowspan="2">Lecture</td>
+            <td>Wednesday</td>
+            <td colspan="3">CSC205</td>
+            <td></td>
+            <td colspan="7">Preparation</td>
+        </tr>
+        <tr>
+            <td>Thursday</td>
+            <td colspan="3">MAM200</td>
+            <td></td>
+            <td colspan="3">Tutorials for MAM200</td>
+            <td colspan="4"> Free </td>
+        </tr>
+        <tr>
+            <td>Research</td>
+            <td>Friday</td>
+            <td colspan="3">Research</td>
+            <td></td>
+            <td colspan="7">Research</td>
+        </tr>
+    </table>
+</body>
+</html>
+
+
+<!-- Nested Table  -->
