@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #myDiv{
+            min-height: 100vh;
+            background-color: gray;
+            text-align: center;
+            justify-content: center;
+        }
+        
+        .textThing{
+            color: red;
+           
+        }
+
+        .bod{
+            height: 75px;
+            width: 500px;
+            margin-left: 5px;
+            margin-top: 10px ; 
+        }
+        #bod2{
+            border : 2px dotted black ; 
+        }
+        #bod3{
+            border : 2px dashed black ; 
+        }
+        #bod4{
+            border : 2px solid black ; 
+        }
+
+        #bod5{
+            border-width: 2px;
+            border-style: double;
+            border-color: black;
+        }
+
+        #bod6{
+            border-style: groove;
+            border-color: black;
+        }
+
+        #bod7{
+            border-style: ridge;
+            border-color: black;
+           
+        }
+
+        #bod8{
+
+            border-style: inset;
+
+        }
+
+        #bod9{
+
+            height: 40px;
+
+            border-style: outset;
+           
+
+        }
+       
+    </style>
+</head>
+<body>
+    <h2>Studying Borders</h2>
+    <div id="myDiv">
+
+        <div id="bod1" class="bod">
+
+            <p class="textThing">none</p>
+
+        </div>
+        <div id="bod2" class="bod">
+
+            <p class="textThing">dotted</p>
+
+        </div>
+        <div id="bod3" class="bod">
+            <p class="textThing">dashed</p>
+        </div>
+
+        <div id="bod4" class="bod">
+            <p class="textThing"> solid </p>
+        </div>
+
+        <div id="bod5" class="bod">
+            <p class="textThing">
+                double
+            </p>
+        </div>
+        <div id="bod6" class="bod">
+            <p class="textThing">groove</p>
+        </div>
+
+        <div id="bod7" class="bod">
+            <p class="textThing">ridge</p>
+        </div>
+
+        <div id="bod8" class="bod">
+
+            <p class="textThing">inset </p>
+
+        </div>
+
+        <div class="bod" id="bod9">
+            <p class="textThing">outset</p>
+        </div>
+
+    </div>
+</body>
+</html>
