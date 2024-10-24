@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        body{
+
+            background-color: lightblue;
+        }
+
+        .mainDiv{
+            border : 2px solid black ; 
+            overflow : auto ;
+            padding: 10vh 10% 0 10%;
+        }
+
+        
+
+        .allDiv{
+
+            float : left ; 
+
+        }
+
+        #a1Div{
+            border : 2px solid white ; 
+
+            height: 41vh;
+            width: 0vh;
+
+        }
+
+        #a2Div{
+            border : 2px solid red ; 
+            width: 50%;
+            font-size: 5rem;
+            color: whitesmoke;
+            font-weight: bold;
+        }
+
+        #a3Div{
+
+            border: 2px solid black;
+            text-align: center;
+            background-color: white;
+            padding-left: 2%;
+            padding-right: 2%;
+            border-radius: 5px;
+
+
+
+        }
+
+        .simText{
+            margin-top: 2vh;
+            margin-bottom: 2vh;
+        }
+
+        #loginDiv{
+
+        }
+
+        .logBtn{
+
+            background-color: lightskyblue;
+            border-radius: 20px;
+            border : 1px solid lightskyblue; 
+            width: 15vw;
+            padding: 8px 0 8px 0;
+            font-weight: bold;
+            color: white;
+
+            
+        }
+
+        .logInput{
+
+            outline: none;
+            border : none ; 
+            border-bottom: 2px solid black;
+            margin: 2vh 0 2vh 0 ;
+            width: 15vw;
+            
+        }
+
+        .logInput::placeholder{
+            font-size: 1rem;
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+
+    <div class="mainDiv" style=" ">
+        <div id="a1Div" class="allDiv">
+           
+           
+        </div>
+        <div id="a2Div" class="allDiv">
+           
+        <p class="simText">Simple</p>
+           <p class="simText">Login Form</p>
+           <p class="simText"> HTML & CSS </p>
+        </div>
+        <div id="a3Div" class="allDiv">
+
+            <div id="loginDiv">
+                <h2 style="text-align: center;">Login</h2>
+                <input type="text" class="logInput" placeholder="Username">
+                <br>
+                <input type="password" class="logInput" placeholder="Password">
+                <p style="text-align: start; color: gray;">Forgot Password ? </p>
+                <button class="logBtn">Login</button>
+                <p style="color: gray;">Not a memeber ? <a href="#" style="color: lightskyblue;">Signup</a></p>
+            </div>
+
+        </div>
+    </div>
+    
+</body>
+</html>
